@@ -10,7 +10,7 @@ public class Cliente {
 
     private String name;
     @Id
-    private Long cpf;
+    private String cpf;
     private String dataNasc;
     private Long telef;
     private String email;
@@ -26,11 +26,11 @@ public class Cliente {
         this.name = name;
     }
 
-    public Long getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(Long cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
